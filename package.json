@@ -1,0 +1,27 @@
+{
+  "name": "npm-nodejs",
+  "version": "1.0.0",
+  "description": "Meow project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "parcel serve index.html"
+  },
+  "keywords": [
+    "npm",
+    "node"
+  ],
+  "author": "Wasim",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "bootstrap": "^5.2.2",
+    "parcel": "^2.7.0",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  }
+}
